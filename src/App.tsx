@@ -12,7 +12,6 @@ import { Menu, X, ChevronRight, ChevronLeft, InstagramIcon, Linkedin, UtensilsCr
 import { FaWhatsapp,FaTwitter } from "react-icons/fa";
 import heroImage from './images/herooo.jpeg';
 import logoImageweb from './images/CURRICE LOGO FINAL - TRANSPARENT 9.png'; 
-import logoimagemobile from './images/CURRICE LOGO FINAL - TRANSPARENT 3.png';
 import expirence from './images/CURRICE_EXPERIENCE_LOGO_FINAL_-_TRANSPARENT_5 (1).png'
 
 // Experience Section Images
@@ -434,26 +433,16 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo Section */}
-            <div className="flex-1 flex justify-center lg:justify-start">
-              {/* Mobile Logo */}
-              <img
-                src={logoimagemobile}
-                alt="Currice Logo Mobile"
-                className={`h-14 sm:h-16 w-auto lg:hidden transition-all duration-300 ${
-                  scrolled ? 'opacity-100' : 'opacity-95 drop-shadow-lg'
-                }`}
-              />
-
-              {/* Desktop Logo */}
+            <div className="flex-1 flex justify-start">
+              {/* Unified Logo (Desktop Logo for all screens) */}
               <img
                 src={logoImageweb}
-                alt="Currice Logo Desktop"
-                className={`hidden lg:block h-16 w-auto transition-all duration-300 ${
+                alt="Currice Logo"
+                className={`h-14 sm:h-16 lg:h-16 w-auto transition-all duration-300 ${
                   scrolled ? 'opacity-100' : 'opacity-90 drop-shadow-lg'
                 }`}
               />
             </div>
-
             {/* Desktop Menu */}
             <div className="hidden lg:flex space-x-8">
               {[

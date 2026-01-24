@@ -576,7 +576,7 @@ function App() {
           </h1>
 
           {/* Subheading */}
-          <p className="text-lg md:text-2xl text-white/90 mb-6 font-light tracking-wide max-w-3xl mx-auto px-4 py-2 bg-black/40 rounded">
+          <p className="text-lg md:text-2xl text-white/90 mb-6 font-light tracking-wide max-w-3xl mx-auto px-4 py-2 bg-black/40  rounded-xl">
             Curated premium food-street experiences designed for large events, weddings, and celebrations.
           </p>
 

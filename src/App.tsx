@@ -12,7 +12,7 @@ import { Menu, X, ChevronRight, ChevronLeft, InstagramIcon, Linkedin, UtensilsCr
 import { FaWhatsapp,FaTwitter } from "react-icons/fa";
 import heroImage from './images/herooo.jpeg';
 import logoImageweb from './images/CURRICE LOGO FINAL - TRANSPARENT 9.png'; 
-import expirence from './images/CURRICE_EXPERIENCE_LOGO_FINAL_-_TRANSPARENT_5 (1).png'
+import expirence from './images/cuirese exp.png'
 
 // Experience Section Images
 import exp1 from './images/experience/exp6.jpeg';
